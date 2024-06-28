@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.outerContainer {
+    display: flex;
+}
+
+.sidebar {
+    background-color: #171717;
+    color: white;
+    height: 100vh;
+    max-width: 18rem;
+    padding: 0 14px 12px 12px;
+    padding-left: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.newChat {
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+    align-items: center;
+    border: none;
+    color: white;
+    padding-top: 2rem;
+    width: 17rem;
+}
+
+.row {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.newChat img {
+    filter: brightness(0) invert(1);
+}
+
+.chatgptimg {
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 100%;
+    width: 1.25rem;
+}
+
+.row p {
+    font-weight: 600;
+    font-size: 1.1rem;
+    margin-left: 0.5rem;
+}
+
+
+.row img {
+    background-color: transparent;
+    color: white;
+}
+
+
+.sideBarFooter {
+    margin-bottom: 2rem;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.sideBarFooterText {
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: white;
+}
+
+.sideBarFooterMoreText {
+    margin-top: 0.5rem;
+    font-weight: 400;
+    font-size: 1.1rem;
+    color: rgb(197, 191, 191);
+}
+
+.primaryButton {
+    margin-top: 0.5rem;
+    background-color: rgb(4, 189, 127);
+    padding: 0.95rem 0;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.secondaryButton {
+    margin-top: 0.5rem;
+    background-color: #212121;
+    padding: 0.95rem 0;
+    border: 1px solid white;
+    border-radius: 10px;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.mainSide {
+    position: relative;
+    background-color: #212121;
+    color: white;
+    width: 100%;
+    height: 100vh;
+}
+
+.gptHeader {
+    margin-top: 3rem;
+    margin-left: 1rem;
+    font-weight: 600;
+}
+
+p {
+    display: block;
+    margin-block-start: 1rem;
+    margin-block-end: 1rem;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+
+.centerHead {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    margin-top: 20%;
+}
+
+.centerLogo {
+    filter: brightness(0) invert(1);
+    width: 3rem;
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 100%;
+}
+
+h1 {
+    margin-top: 1rem;
+
+    display: block;
+    font-size: 2rem;
+    margin-block-start: 0.67rem;
+    margin-block-end: 0.67rem;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+
+.mainText {
+    position: absolute;
+    bottom: 0;
+    color: white;
+    right: 40%;
+    width: 20rem;
+    text-align: center;
+}
